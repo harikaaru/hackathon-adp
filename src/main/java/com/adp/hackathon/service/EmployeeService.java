@@ -9,5 +9,5 @@ public interface EmployeeService{
 	public List<Employee> listEmployees();
 	public Employee getEmployeeById(Long id);
 	public boolean removeEmployee(Long id);
-	public Employee getEmployeeByEmail(String email);	
+	public Employee getEmployeeByEmail(String email);
 }
